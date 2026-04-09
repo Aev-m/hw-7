@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise 4 - Form Data</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+    <h2>Sample Form</h2>
+    <form id="sampleForm">
+        Name: <input type="text" name="name"><br><br>
+        
+        Email: <input type="email" name="email"><br><br>
+        
+        Payment Type:<br>
+        <input type="radio" name="payment" value="cash"> Cash<br>
+        <input type="radio" name="payment" value="cc"> Credit Card<br>
+        <input type="radio" name="payment" value="gpay"> Google Pay<br>
+        <input type="radio" name="payment" value="apple"> Apple Pay<br><br>
+
+        <input type="checkbox" name="promotion"> Sign me up for special promotions<br><br>
+
+        Preferred Location:
+        <select name="location">
+            <option value="la">Los Angeles</option>
+            <option value="oc">Orange County</option>
+            <option value="riv">Riverside</option>
+            <option value="sd">San Diego</option>
+        </select><br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Cancel</button>
+    </form>
+
+    <div id="formResult"></div>
+
+    <p><a href="index.html">Back to Home</a></p>
+
+    <script src="../js/ex4.js"></script>
+</body>
+</html>

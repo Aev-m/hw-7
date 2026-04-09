@@ -1,0 +1,29 @@
+
+body {
+    font-family: 'Calibri', sans-serif;
+}
+
+table {
+    border: 1px solid black; 
+    border-collapse: collapse; 
+    margin-top: 20px;
+    width: auto;
+}
+
+
+th, td {
+    border: 1px solid black; 
+    padding-left: 5px;
+    padding-right: 5px; 
+    text-align: left;
+}
+
+th {
+    background-color: lightgray;
+}
+
+p img {
+    display: block;
+    margin-bottom: 10px;
+    max-width: 200px;
+}
